@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/index1.css')}}">
+    <title>Flask Milano</title>
+</head>
+<body>
+    <div>
+    <h1>Flask Milano</h1>
+    <pre>
+    Milano è una tipica città di pianura, che ha potuto espandersi 
+    in ogni direzione fino a conglobare i Comuni vicini in un unico, grande 
+    centro urbano. Milano è stata fondata dai Galli e conquistata poi dai Romani, 
+    essa sorge in un punto strategico del territorio, al centro della Pianura Padana.
+    </pre>
+        <a href="/perImg1.html"><img class="img1" src="{{url_for('static', filename='images/verdi4.jpg')}}" align="middle" /></a>
+        <a href="/perImg2.html"><img class="img2" src="{{url_for('static', filename='images/sempre-splendido.jpg')}}" align="middle" /></a>
+        <a href="/perImg3.html"><img class="img3" src="{{url_for('static', filename='images/iPiccoliMartiriDiGorla.jpg')}}" align="middle" /></a>
+        <a href="/perImg4.html"><img class="img4" src="{{url_for('static', filename='images/GiorcesMilanoVEII.png')}}" align="middle" /></a>
+        </div>
+</body>
+</html>

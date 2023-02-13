@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 1.42em;
+    place-items:center;
+}
+div{text-align: center;}
+
+.img1 {
+    height: 40vh;
+}
+
+.img2 {
+    height: 40vh;
+}
+
+.img3 {
+    height: 40vh;
+}
+.img4 {
+    height: 40vh;
+}
